@@ -48,8 +48,8 @@ class PowerUnitArrayListTest {
 
         ArrayList<String> lst  = new ArrayList<>();
 
-        Assertions.assertNotNull(PowerUnitArrayList.getAllPowerUnitsFromOneProducer(Producers.DeepCool, 100));
-        Assertions.assertEquals(PowerUnitArrayList.getAllPowerUnitsFromOneProducer(Producers.DeepCool, 100)
+        Assertions.assertNotNull(PowerUnitArrayList.getAllPowerUnitsFromOneProducer(Producers.DeepCool, s -> s.getPower() > 100));
+        Assertions.assertEquals(PowerUnitArrayList.getAllPowerUnitsFromOneProducer(Producers.DeepCool, s -> s.getPower() > 100)
                 .getClass(), lst.getClass());
 
     }
