@@ -1,4 +1,6 @@
 import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
 
@@ -34,5 +36,6 @@ public class Main {
 
         System.out.println("Similar objects: " + hd1.equals(hd2));
         System.out.println(Producers.ASUS.getSimilarProducers());
+
     }
 }
