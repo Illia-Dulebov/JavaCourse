@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class PowerUnitArrayList {
@@ -53,13 +54,13 @@ public class PowerUnitArrayList {
 
     }
 
-    public static List<String> getAllPowerUnitsFromOneProducer(Producers producer, double pow) {
+    public static List<String> getAllPowerUnitsFromOneProducer(Producers producer, Predicate<PowerUnit> predicateInstance) {
 
         List<PowerUnit> powerUnits = getPowerUnits();
 
         List<String> collect = powerUnits.stream()
                 .filter(s -> s.getProducer().equals(producer))
-                .filter(s -> s.getPower() > pow)
+                .filter(predicateInstance)
                 .map(PowerUnit::getModel)
                 .distinct()
                 .collect(Collectors.toList());
