@@ -3,8 +3,9 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import java.util.ArrayList;
+import java.util.List;
 
-class SystemBlockIntegratedTest {
+class SystemBlockIntegratedTestIT {
     public MotherBoard m1 = new MotherBoard("LGA1155 P8P67 PRO", Producers.ASUS, "LGA1155",
             "P67", 4, 3, 8, "LightYourFate", Producers.DeepCool,
             100, "rgb");
@@ -33,6 +34,18 @@ class SystemBlockIntegratedTest {
         dream.setBd(mockedBody);
         Assertions.assertEquals(dream.getBd().getHeight(), 30f);
         Mockito.verify(mockedBody).getHeight();
+    }
+
+    @Test
+    public void whenSpyingOnList_List_thenCorrect() {
+        List<RAM> list = new ArrayList<>();
+        List<RAM> spyList = Mockito.spy(list);
+
+        spyList.add(r1);
+
+        Mockito.verify(spyList).add(r1);
+
+        Assertions.assertEquals(1, spyList.size());
     }
 
 }

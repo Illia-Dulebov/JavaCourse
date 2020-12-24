@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="79" passed="79" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-24T13:14:07 MSK" name="Surefire suite" finished-at="2020-12-24T13:14:08 MSK" duration-ms="796">
+    <groups>
+    </groups>
+    <test started-at="2020-12-24T13:14:07 MSK" name="Surefire test" finished-at="2020-12-24T13:14:08 MSK" duration-ms="796">
+      <class name="ua.procamp.AccountAnalyticsTest">
+        <test-method signature="testGroupAccountsByEmailDomain()" started-at="2020-12-24T13:14:07 MSK" name="testGroupAccountsByEmailDomain" finished-at="2020-12-24T13:14:07 MSK" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupAccountsByEmailDomain -->
+        <test-method signature="testGetBalanceByEmail()" started-at="2020-12-24T13:14:07 MSK" name="testGetBalanceByEmail" finished-at="2020-12-24T13:14:07 MSK" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBalanceByEmail -->
+        <test-method signature="testContainsAccountWithEmailDomain()" started-at="2020-12-24T13:14:07 MSK" name="testContainsAccountWithEmailDomain" finished-at="2020-12-24T13:14:07 MSK" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContainsAccountWithEmailDomain -->
+        <test-method signature="testSortByFirstAndLastNames()" started-at="2020-12-24T13:14:07 MSK" name="testSortByFirstAndLastNames" finished-at="2020-12-24T13:14:07 MSK" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByFirstAndLastNames -->
+        <test-method signature="testCollectAccountsById()" started-at="2020-12-24T13:14:07 MSK" name="testCollectAccountsById" finished-at="2020-12-24T13:14:07 MSK" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollectAccountsById -->
+        <test-method signature="testGroupCommaSeparatedFirstNamesByBirthdayMonth()" started-at="2020-12-24T13:14:07 MSK" name="testGroupCommaSeparatedFirstNamesByBirthdayMonth" finished-at="2020-12-24T13:14:07 MSK" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupCommaSeparatedFirstNamesByBirthdayMonth -->
+        <test-method signature="testFindAccountsByBirthdayMonth()" started-at="2020-12-24T13:14:07 MSK" name="testFindAccountsByBirthdayMonth" finished-at="2020-12-24T13:14:07 MSK" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAccountsByBirthdayMonth -->
+        <test-method signature="testGroupTotalBalanceByCreationMonth()" started-at="2020-12-24T13:14:07 MSK" name="testGroupTotalBalanceByCreationMonth" finished-at="2020-12-24T13:14:07 MSK" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupTotalBalanceByCreationMonth -->
+        <test-method signature="testCalculateTotalBalance()" started-at="2020-12-24T13:14:07 MSK" name="testCalculateTotalBalance" finished-at="2020-12-24T13:14:07 MSK" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateTotalBalance -->
+        <test-method signature="testGetCharacterFrequencyIgnoreCaseInFirstAndLastNames()" started-at="2020-12-24T13:14:07 MSK" name="testGetCharacterFrequencyIgnoreCaseInFirstAndLastNames" finished-at="2020-12-24T13:14:07 MSK" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCharacterFrequencyIgnoreCaseInFirstAndLastNames -->
+        <test-method signature="testFindRichestPerson()" started-at="2020-12-24T13:14:07 MSK" name="testFindRichestPerson" finished-at="2020-12-24T13:14:07 MSK" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindRichestPerson -->
+        <test-method signature="testGetNumOfLettersInFirstAndLastNames()" started-at="2020-12-24T13:14:07 MSK" name="testGetNumOfLettersInFirstAndLastNames" finished-at="2020-12-24T13:14:07 MSK" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNumOfLettersInFirstAndLastNames -->
+        <test-method signature="testGroupFirstNamesByLastNames()" started-at="2020-12-24T13:14:07 MSK" name="testGroupFirstNamesByLastNames" finished-at="2020-12-24T13:14:07 MSK" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupFirstNamesByLastNames -->
+        <test-method signature="testSeparateMaleAccounts()" started-at="2020-12-24T13:14:07 MSK" name="testSeparateMaleAccounts" finished-at="2020-12-24T13:14:07 MSK" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSeparateMaleAccounts -->
+        <test-method signature="testGetCharacterFrequencyInFirstNames()" started-at="2020-12-24T13:14:07 MSK" name="testGetCharacterFrequencyInFirstNames" finished-at="2020-12-24T13:14:07 MSK" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCharacterFrequencyInFirstNames -->
+        <test-method signature="testCollectBalancesByIdForAccountsCreatedOn()" started-at="2020-12-24T13:14:07 MSK" name="testCollectBalancesByIdForAccountsCreatedOn" finished-at="2020-12-24T13:14:07 MSK" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollectBalancesByIdForAccountsCreatedOn -->
+        <test-method signature="testGetBalanceByEmailThrowsException()" started-at="2020-12-24T13:14:07 MSK" name="testGetBalanceByEmailThrowsException" finished-at="2020-12-24T13:14:07 MSK" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBalanceByEmailThrowsException -->
+      </class> <!-- ua.procamp.AccountAnalyticsTest -->
+      <class name="ua.procamp.QueueTest">
+        <test-method signature="testPollLastElement()" started-at="2020-12-24T13:14:08 MSK" name="testPollLastElement" finished-at="2020-12-24T13:14:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPollLastElement -->
+        <test-method signature="testAddElementIntoEmptyQueue()" started-at="2020-12-24T13:14:08 MSK" name="testAddElementIntoEmptyQueue" finished-at="2020-12-24T13:14:08 MSK" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddElementIntoEmptyQueue -->
+        <test-method signature="testIsEmptyOnEmptyQueue()" started-at="2020-12-24T13:14:08 MSK" name="testIsEmptyOnEmptyQueue" finished-at="2020-12-24T13:14:08 MSK" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmptyOnEmptyQueue -->
+        <test-method signature="testSizeOfEmptyQueue()" started-at="2020-12-24T13:14:08 MSK" name="testSizeOfEmptyQueue" finished-at="2020-12-24T13:14:08 MSK" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSizeOfEmptyQueue -->
+        <test-method signature="testAddElement()" started-at="2020-12-24T13:14:08 MSK" name="testAddElement" finished-at="2020-12-24T13:14:08 MSK" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddElement -->
+        <test-method signature="testPollElementFromEmptyQueue()" started-at="2020-12-24T13:14:08 MSK" name="testPollElementFromEmptyQueue" finished-at="2020-12-24T13:14:08 MSK" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPollElementFromEmptyQueue -->
+        <test-method signature="testSize()" started-at="2020-12-24T13:14:08 MSK" name="testSize" finished-at="2020-12-24T13:14:08 MSK" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize -->
+        <test-method signature="testIsEmpty()" started-at="2020-12-24T13:14:08 MSK" name="testIsEmpty" finished-at="2020-12-24T13:14:08 MSK" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method signature="testPollElement()" started-at="2020-12-24T13:14:08 MSK" name="testPollElement" finished-at="2020-12-24T13:14:08 MSK" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPollElement -->
+      </class> <!-- ua.procamp.QueueTest -->
+      <class name="ua.procamp.CrazyLambdasTest">
+        <test-method signature="testNMultiplyFunctionSupplier()" started-at="2020-12-24T13:14:07 MSK" name="testNMultiplyFunctionSupplier" finished-at="2020-12-24T13:14:07 MSK" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNMultiplyFunctionSupplier -->
+        <test-method signature="testIsEmptyPredicate()" started-at="2020-12-24T13:14:07 MSK" name="testIsEmptyPredicate" finished-at="2020-12-24T13:14:07 MSK" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmptyPredicate -->
+        <test-method signature="testRunningThreadSupplier() throws java.lang.InterruptedException" started-at="2020-12-24T13:14:07 MSK" name="testRunningThreadSupplier" finished-at="2020-12-24T13:14:07 MSK" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRunningThreadSupplier -->
+        <test-method signature="testFunctionToConditionalFunction()" started-at="2020-12-24T13:14:07 MSK" name="testFunctionToConditionalFunction" finished-at="2020-12-24T13:14:07 MSK" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFunctionToConditionalFunction -->
+        <test-method signature="testRandomIntSupplier()" started-at="2020-12-24T13:14:07 MSK" name="testRandomIntSupplier" finished-at="2020-12-24T13:14:07 MSK" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandomIntSupplier -->
+        <test-method signature="testBoundedRandomIntSupplier()" started-at="2020-12-24T13:14:07 MSK" name="testBoundedRandomIntSupplier" finished-at="2020-12-24T13:14:07 MSK" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundedRandomIntSupplier -->
+        <test-method signature="testRunnableToThreadSupplierFunction() throws java.lang.InterruptedException" started-at="2020-12-24T13:14:07 MSK" name="testRunnableToThreadSupplierFunction" finished-at="2020-12-24T13:14:07 MSK" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRunnableToThreadSupplierFunction -->
+        <test-method signature="testHelloSupplier()" started-at="2020-12-24T13:14:07 MSK" name="testHelloSupplier" finished-at="2020-12-24T13:14:07 MSK" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHelloSupplier -->
+        <test-method signature="testTrickyWellDoneSupplier()" started-at="2020-12-24T13:14:07 MSK" name="testTrickyWellDoneSupplier" finished-at="2020-12-24T13:14:07 MSK" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTrickyWellDoneSupplier -->
+        <test-method signature="testLengthInRangePredicate()" started-at="2020-12-24T13:14:07 MSK" name="testLengthInRangePredicate" finished-at="2020-12-24T13:14:07 MSK" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLengthInRangePredicate -->
+        <test-method signature="testToDollarStringFunction()" started-at="2020-12-24T13:14:07 MSK" name="testToDollarStringFunction" finished-at="2020-12-24T13:14:08 MSK" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToDollarStringFunction -->
+        <test-method signature="testStringToIntConverter()" started-at="2020-12-24T13:14:07 MSK" name="testStringToIntConverter" finished-at="2020-12-24T13:14:08 MSK" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringToIntConverter -->
+        <test-method signature="testIntSquareOperation()" started-at="2020-12-24T13:14:07 MSK" name="testIntSquareOperation" finished-at="2020-12-24T13:14:08 MSK" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIntSquareOperation -->
+        <test-method signature="testNewThreadRunnableConsumer() throws java.lang.InterruptedException" started-at="2020-12-24T13:14:07 MSK" name="testNewThreadRunnableConsumer" finished-at="2020-12-24T13:14:08 MSK" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewThreadRunnableConsumer -->
+        <test-method signature="testLongSumOperation()" started-at="2020-12-24T13:14:07 MSK" name="testLongSumOperation" finished-at="2020-12-24T13:14:08 MSK" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLongSumOperation -->
+      </class> <!-- ua.procamp.CrazyLambdasTest -->
+      <class name="ua.procamp.LinkedListTest">
+        <test-method signature="testClearChangesTheSize()" started-at="2020-12-24T13:14:08 MSK" name="testClearChangesTheSize" finished-at="2020-12-24T13:14:08 MSK" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearChangesTheSize -->
+        <test-method signature="testSize()" started-at="2020-12-24T13:14:08 MSK" name="testSize" finished-at="2020-12-24T13:14:08 MSK" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize -->
+        <test-method signature="testAddElements()" started-at="2020-12-24T13:14:08 MSK" name="testAddElements" finished-at="2020-12-24T13:14:08 MSK" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddElements -->
+        <test-method signature="testClearOnEmptyList()" started-at="2020-12-24T13:14:08 MSK" name="testClearOnEmptyList" finished-at="2020-12-24T13:14:08 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearOnEmptyList -->
+        <test-method signature="testGetFirstElementFromSingleElementList()" started-at="2020-12-24T13:14:08 MSK" name="testGetFirstElementFromSingleElementList" finished-at="2020-12-24T13:14:08 MSK" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetFirstElementFromSingleElementList -->
+        <test-method signature="testSizeOnEmptyList()" started-at="2020-12-24T13:14:08 MSK" name="testSizeOnEmptyList" finished-at="2020-12-24T13:14:08 MSK" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSizeOnEmptyList -->
+        <test-method signature="testRemoveFirstElement()" started-at="2020-12-24T13:14:08 MSK" name="testRemoveFirstElement" finished-at="2020-12-24T13:14:08 MSK" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveFirstElement -->
+        <test-method signature="testAddElementByIndex()" started-at="2020-12-24T13:14:08 MSK" name="testAddElementByIndex" finished-at="2020-12-24T13:14:08 MSK" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddElementByIndex -->
+        <test-method signature="testClearRemovesElements()" started-at="2020-12-24T13:14:08 MSK" name="testClearRemovesElements" finished-at="2020-12-24T13:14:08 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearRemovesElements -->
+        <test-method signature="testRemoveLastElement()" started-at="2020-12-24T13:14:08 MSK" name="testRemoveLastElement" finished-at="2020-12-24T13:14:08 MSK" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveLastElement -->
+        <test-method signature="testSetElementByIndex()" started-at="2020-12-24T13:14:08 MSK" name="testSetElementByIndex" finished-at="2020-12-24T13:14:08 MSK" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetElementByIndex -->
+        <test-method signature="testContainsOnEmptyList()" started-at="2020-12-24T13:14:08 MSK" name="testContainsOnEmptyList" finished-at="2020-12-24T13:14:08 MSK" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContainsOnEmptyList -->
+        <test-method signature="testIsEmptyOnEmptyList()" started-at="2020-12-24T13:14:08 MSK" name="testIsEmptyOnEmptyList" finished-at="2020-12-24T13:14:08 MSK" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmptyOnEmptyList -->
+        <test-method signature="testAddElementByNegativeIndex()" started-at="2020-12-24T13:14:08 MSK" name="testAddElementByNegativeIndex" finished-at="2020-12-24T13:14:08 MSK" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddElementByNegativeIndex -->
+        <test-method signature="testGetElementByIndexEqualsToListSize()" started-at="2020-12-24T13:14:08 MSK" name="testGetElementByIndexEqualsToListSize" finished-at="2020-12-24T13:14:08 MSK" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetElementByIndexEqualsToListSize -->
+        <test-method signature="testAddElementToTheHeadOfNonEmptyList()" started-at="2020-12-24T13:14:08 MSK" name="testAddElementToTheHeadOfNonEmptyList" finished-at="2020-12-24T13:14:08 MSK" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddElementToTheHeadOfNonEmptyList -->
+        <test-method signature="testGetElementByNegativeIndex()" started-at="2020-12-24T13:14:08 MSK" name="testGetElementByNegativeIndex" finished-at="2020-12-24T13:14:08 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetElementByNegativeIndex -->
+        <test-method signature="testAddElementByIndexEqualToSize()" started-at="2020-12-24T13:14:08 MSK" name="testAddElementByIndexEqualToSize" finished-at="2020-12-24T13:14:08 MSK" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddElementByIndexEqualToSize -->
+        <test-method signature="testAddElementByIndexToTheEndOfList()" started-at="2020-12-24T13:14:08 MSK" name="testAddElementByIndexToTheEndOfList" finished-at="2020-12-24T13:14:08 MSK" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddElementByIndexToTheEndOfList -->
+        <test-method signature="testContains()" started-at="2020-12-24T13:14:08 MSK" name="testContains" finished-at="2020-12-24T13:14:08 MSK" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContains -->
+        <test-method signature="testSetFirstElementOnEmptyTree()" started-at="2020-12-24T13:14:08 MSK" name="testSetFirstElementOnEmptyTree" finished-at="2020-12-24T13:14:08 MSK" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetFirstElementOnEmptyTree -->
+        <test-method signature="testAddIntoEmptyList()" started-at="2020-12-24T13:14:08 MSK" name="testAddIntoEmptyList" finished-at="2020-12-24T13:14:08 MSK" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddIntoEmptyList -->
+        <test-method signature="testAddElementByZeroIndexIntoEmptyList()" started-at="2020-12-24T13:14:08 MSK" name="testAddElementByZeroIndexIntoEmptyList" finished-at="2020-12-24T13:14:08 MSK" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddElementByZeroIndexIntoEmptyList -->
+        <test-method signature="testSetElementByIndexEqualToSize()" started-at="2020-12-24T13:14:08 MSK" name="testSetElementByIndexEqualToSize" finished-at="2020-12-24T13:14:08 MSK" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetElementByIndexEqualToSize -->
+        <test-method signature="testRemoveElementFromEmptyList()" started-at="2020-12-24T13:14:08 MSK" name="testRemoveElementFromEmptyList" finished-at="2020-12-24T13:14:08 MSK" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveElementFromEmptyList -->
+        <test-method signature="testAddElementByIndexLargerThanListSize()" started-at="2020-12-24T13:14:08 MSK" name="testAddElementByIndexLargerThanListSize" finished-at="2020-12-24T13:14:08 MSK" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddElementByIndexLargerThanListSize -->
+        <test-method signature="testGetFirstElementFromEmptyList()" started-at="2020-12-24T13:14:08 MSK" name="testGetFirstElementFromEmptyList" finished-at="2020-12-24T13:14:08 MSK" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetFirstElementFromEmptyList -->
+        <test-method signature="testRemoveElement()" started-at="2020-12-24T13:14:08 MSK" name="testRemoveElement" finished-at="2020-12-24T13:14:08 MSK" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveElement -->
+        <test-method signature="testIsEmpty()" started-at="2020-12-24T13:14:08 MSK" name="testIsEmpty" finished-at="2020-12-24T13:14:08 MSK" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+        <test-method signature="testGetElements()" started-at="2020-12-24T13:14:08 MSK" name="testGetElements" finished-at="2020-12-24T13:14:08 MSK" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetElements -->
+      </class> <!-- ua.procamp.LinkedListTest -->
+      <class name="ua.procamp.StackTest">
+        <test-method signature="testPopElementFromEmptyStack()" started-at="2020-12-24T13:14:08 MSK" name="testPopElementFromEmptyStack" finished-at="2020-12-24T13:14:08 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPopElementFromEmptyStack -->
+        <test-method signature="testIsEmptyOnEmptyStack()" started-at="2020-12-24T13:14:08 MSK" name="testIsEmptyOnEmptyStack" finished-at="2020-12-24T13:14:08 MSK" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmptyOnEmptyStack -->
+        <test-method signature="testSize()" started-at="2020-12-24T13:14:08 MSK" name="testSize" finished-at="2020-12-24T13:14:08 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize -->
+        <test-method signature="testPushElementOntoEmptyStack()" started-at="2020-12-24T13:14:08 MSK" name="testPushElementOntoEmptyStack" finished-at="2020-12-24T13:14:08 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPushElementOntoEmptyStack -->
+        <test-method signature="testPushElements()" started-at="2020-12-24T13:14:08 MSK" name="testPushElements" finished-at="2020-12-24T13:14:08 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPushElements -->
+        <test-method signature="testSizeOnEmptyStack()" started-at="2020-12-24T13:14:08 MSK" name="testSizeOnEmptyStack" finished-at="2020-12-24T13:14:08 MSK" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSizeOnEmptyStack -->
+        <test-method signature="testPopElements()" started-at="2020-12-24T13:14:08 MSK" name="testPopElements" finished-at="2020-12-24T13:14:08 MSK" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPopElements -->
+        <test-method signature="testIsEmpty()" started-at="2020-12-24T13:14:08 MSK" name="testIsEmpty" finished-at="2020-12-24T13:14:08 MSK" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsEmpty -->
+      </class> <!-- ua.procamp.StackTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

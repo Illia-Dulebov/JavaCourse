@@ -1,0 +1,474 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>79/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 24 13:14:07 MSK 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (796 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ua.procamp.QueueTest.testAddElement()'><b>testAddElement</b><br>Test class: ua.procamp.QueueTest</td>
+<td></td>
+<td>0</td>
+<td>testAddElement(ua.procamp.QueueTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testAddElementByIndex()'><b>testAddElementByIndex</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testAddElementByIndex(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testAddElementByIndexEqualToSize()'><b>testAddElementByIndexEqualToSize</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testAddElementByIndexEqualToSize(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testAddElementByIndexLargerThanListSize()'><b>testAddElementByIndexLargerThanListSize</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testAddElementByIndexLargerThanListSize(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testAddElementByIndexToTheEndOfList()'><b>testAddElementByIndexToTheEndOfList</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testAddElementByIndexToTheEndOfList(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testAddElementByNegativeIndex()'><b>testAddElementByNegativeIndex</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testAddElementByNegativeIndex(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testAddElementByZeroIndexIntoEmptyList()'><b>testAddElementByZeroIndexIntoEmptyList</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testAddElementByZeroIndexIntoEmptyList(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.QueueTest.testAddElementIntoEmptyQueue()'><b>testAddElementIntoEmptyQueue</b><br>Test class: ua.procamp.QueueTest</td>
+<td></td>
+<td>0</td>
+<td>testAddElementIntoEmptyQueue(ua.procamp.QueueTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testAddElementToTheHeadOfNonEmptyList()'><b>testAddElementToTheHeadOfNonEmptyList</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testAddElementToTheHeadOfNonEmptyList(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testAddElements()'><b>testAddElements</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testAddElements(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testAddIntoEmptyList()'><b>testAddIntoEmptyList</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testAddIntoEmptyList(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testBoundedRandomIntSupplier()'><b>testBoundedRandomIntSupplier</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testBoundedRandomIntSupplier(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testCalculateTotalBalance()'><b>testCalculateTotalBalance</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testCalculateTotalBalance(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testClearChangesTheSize()'><b>testClearChangesTheSize</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testClearChangesTheSize(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testClearOnEmptyList()'><b>testClearOnEmptyList</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testClearOnEmptyList(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testClearRemovesElements()'><b>testClearRemovesElements</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testClearRemovesElements(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testCollectAccountsById()'><b>testCollectAccountsById</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testCollectAccountsById(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testCollectBalancesByIdForAccountsCreatedOn()'><b>testCollectBalancesByIdForAccountsCreatedOn</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testCollectBalancesByIdForAccountsCreatedOn(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testContains()'><b>testContains</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testContains(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testContainsAccountWithEmailDomain()'><b>testContainsAccountWithEmailDomain</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testContainsAccountWithEmailDomain(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testContainsOnEmptyList()'><b>testContainsOnEmptyList</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testContainsOnEmptyList(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testFindAccountsByBirthdayMonth()'><b>testFindAccountsByBirthdayMonth</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testFindAccountsByBirthdayMonth(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testFindRichestPerson()'><b>testFindRichestPerson</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testFindRichestPerson(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testFunctionToConditionalFunction()'><b>testFunctionToConditionalFunction</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testFunctionToConditionalFunction(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testGetBalanceByEmail()'><b>testGetBalanceByEmail</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testGetBalanceByEmail(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testGetBalanceByEmailThrowsException()'><b>testGetBalanceByEmailThrowsException</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testGetBalanceByEmailThrowsException(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testGetCharacterFrequencyIgnoreCaseInFirstAndLastNames()'><b>testGetCharacterFrequencyIgnoreCaseInFirstAndLastNames</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testGetCharacterFrequencyIgnoreCaseInFirstAndLastNames(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testGetCharacterFrequencyInFirstNames()'><b>testGetCharacterFrequencyInFirstNames</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testGetCharacterFrequencyInFirstNames(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testGetElementByIndexEqualsToListSize()'><b>testGetElementByIndexEqualsToListSize</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testGetElementByIndexEqualsToListSize(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testGetElementByNegativeIndex()'><b>testGetElementByNegativeIndex</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testGetElementByNegativeIndex(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testGetElements()'><b>testGetElements</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testGetElements(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testGetFirstElementFromEmptyList()'><b>testGetFirstElementFromEmptyList</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testGetFirstElementFromEmptyList(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testGetFirstElementFromSingleElementList()'><b>testGetFirstElementFromSingleElementList</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testGetFirstElementFromSingleElementList(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testGetNumOfLettersInFirstAndLastNames()'><b>testGetNumOfLettersInFirstAndLastNames</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testGetNumOfLettersInFirstAndLastNames(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testGroupAccountsByEmailDomain()'><b>testGroupAccountsByEmailDomain</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testGroupAccountsByEmailDomain(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testGroupCommaSeparatedFirstNamesByBirthdayMonth()'><b>testGroupCommaSeparatedFirstNamesByBirthdayMonth</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testGroupCommaSeparatedFirstNamesByBirthdayMonth(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testGroupFirstNamesByLastNames()'><b>testGroupFirstNamesByLastNames</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testGroupFirstNamesByLastNames(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testGroupTotalBalanceByCreationMonth()'><b>testGroupTotalBalanceByCreationMonth</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testGroupTotalBalanceByCreationMonth(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testHelloSupplier()'><b>testHelloSupplier</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testHelloSupplier(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testIntSquareOperation()'><b>testIntSquareOperation</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testIntSquareOperation(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testIsEmpty()'><b>testIsEmpty</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testIsEmpty(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.QueueTest.testIsEmpty()'><b>testIsEmpty</b><br>Test class: ua.procamp.QueueTest</td>
+<td></td>
+<td>0</td>
+<td>testIsEmpty(ua.procamp.QueueTest)</td></tr>
+<tr>
+<td title='ua.procamp.StackTest.testIsEmpty()'><b>testIsEmpty</b><br>Test class: ua.procamp.StackTest</td>
+<td></td>
+<td>0</td>
+<td>testIsEmpty(ua.procamp.StackTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testIsEmptyOnEmptyList()'><b>testIsEmptyOnEmptyList</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testIsEmptyOnEmptyList(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.QueueTest.testIsEmptyOnEmptyQueue()'><b>testIsEmptyOnEmptyQueue</b><br>Test class: ua.procamp.QueueTest</td>
+<td></td>
+<td>0</td>
+<td>testIsEmptyOnEmptyQueue(ua.procamp.QueueTest)</td></tr>
+<tr>
+<td title='ua.procamp.StackTest.testIsEmptyOnEmptyStack()'><b>testIsEmptyOnEmptyStack</b><br>Test class: ua.procamp.StackTest</td>
+<td></td>
+<td>0</td>
+<td>testIsEmptyOnEmptyStack(ua.procamp.StackTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testIsEmptyPredicate()'><b>testIsEmptyPredicate</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testIsEmptyPredicate(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testLengthInRangePredicate()'><b>testLengthInRangePredicate</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testLengthInRangePredicate(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testLongSumOperation()'><b>testLongSumOperation</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testLongSumOperation(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testNMultiplyFunctionSupplier()'><b>testNMultiplyFunctionSupplier</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testNMultiplyFunctionSupplier(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testNewThreadRunnableConsumer()'><b>testNewThreadRunnableConsumer</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testNewThreadRunnableConsumer(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.QueueTest.testPollElement()'><b>testPollElement</b><br>Test class: ua.procamp.QueueTest</td>
+<td></td>
+<td>0</td>
+<td>testPollElement(ua.procamp.QueueTest)</td></tr>
+<tr>
+<td title='ua.procamp.QueueTest.testPollElementFromEmptyQueue()'><b>testPollElementFromEmptyQueue</b><br>Test class: ua.procamp.QueueTest</td>
+<td></td>
+<td>0</td>
+<td>testPollElementFromEmptyQueue(ua.procamp.QueueTest)</td></tr>
+<tr>
+<td title='ua.procamp.QueueTest.testPollLastElement()'><b>testPollLastElement</b><br>Test class: ua.procamp.QueueTest</td>
+<td></td>
+<td>0</td>
+<td>testPollLastElement(ua.procamp.QueueTest)</td></tr>
+<tr>
+<td title='ua.procamp.StackTest.testPopElementFromEmptyStack()'><b>testPopElementFromEmptyStack</b><br>Test class: ua.procamp.StackTest</td>
+<td></td>
+<td>0</td>
+<td>testPopElementFromEmptyStack(ua.procamp.StackTest)</td></tr>
+<tr>
+<td title='ua.procamp.StackTest.testPopElements()'><b>testPopElements</b><br>Test class: ua.procamp.StackTest</td>
+<td></td>
+<td>0</td>
+<td>testPopElements(ua.procamp.StackTest)</td></tr>
+<tr>
+<td title='ua.procamp.StackTest.testPushElementOntoEmptyStack()'><b>testPushElementOntoEmptyStack</b><br>Test class: ua.procamp.StackTest</td>
+<td></td>
+<td>0</td>
+<td>testPushElementOntoEmptyStack(ua.procamp.StackTest)</td></tr>
+<tr>
+<td title='ua.procamp.StackTest.testPushElements()'><b>testPushElements</b><br>Test class: ua.procamp.StackTest</td>
+<td></td>
+<td>0</td>
+<td>testPushElements(ua.procamp.StackTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testRandomIntSupplier()'><b>testRandomIntSupplier</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testRandomIntSupplier(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testRemoveElement()'><b>testRemoveElement</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testRemoveElement(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testRemoveElementFromEmptyList()'><b>testRemoveElementFromEmptyList</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testRemoveElementFromEmptyList(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testRemoveFirstElement()'><b>testRemoveFirstElement</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testRemoveFirstElement(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testRemoveLastElement()'><b>testRemoveLastElement</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testRemoveLastElement(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testRunnableToThreadSupplierFunction()'><b>testRunnableToThreadSupplierFunction</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testRunnableToThreadSupplierFunction(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testRunningThreadSupplier()'><b>testRunningThreadSupplier</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testRunningThreadSupplier(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testSeparateMaleAccounts()'><b>testSeparateMaleAccounts</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testSeparateMaleAccounts(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testSetElementByIndex()'><b>testSetElementByIndex</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testSetElementByIndex(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testSetElementByIndexEqualToSize()'><b>testSetElementByIndexEqualToSize</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testSetElementByIndexEqualToSize(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testSetFirstElementOnEmptyTree()'><b>testSetFirstElementOnEmptyTree</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testSetFirstElementOnEmptyTree(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testSize()'><b>testSize</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testSize(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.QueueTest.testSize()'><b>testSize</b><br>Test class: ua.procamp.QueueTest</td>
+<td></td>
+<td>0</td>
+<td>testSize(ua.procamp.QueueTest)</td></tr>
+<tr>
+<td title='ua.procamp.StackTest.testSize()'><b>testSize</b><br>Test class: ua.procamp.StackTest</td>
+<td></td>
+<td>0</td>
+<td>testSize(ua.procamp.StackTest)</td></tr>
+<tr>
+<td title='ua.procamp.QueueTest.testSizeOfEmptyQueue()'><b>testSizeOfEmptyQueue</b><br>Test class: ua.procamp.QueueTest</td>
+<td></td>
+<td>0</td>
+<td>testSizeOfEmptyQueue(ua.procamp.QueueTest)</td></tr>
+<tr>
+<td title='ua.procamp.LinkedListTest.testSizeOnEmptyList()'><b>testSizeOnEmptyList</b><br>Test class: ua.procamp.LinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>testSizeOnEmptyList(ua.procamp.LinkedListTest)</td></tr>
+<tr>
+<td title='ua.procamp.StackTest.testSizeOnEmptyStack()'><b>testSizeOnEmptyStack</b><br>Test class: ua.procamp.StackTest</td>
+<td></td>
+<td>0</td>
+<td>testSizeOnEmptyStack(ua.procamp.StackTest)</td></tr>
+<tr>
+<td title='ua.procamp.AccountAnalyticsTest.testSortByFirstAndLastNames()'><b>testSortByFirstAndLastNames</b><br>Test class: ua.procamp.AccountAnalyticsTest</td>
+<td></td>
+<td>0</td>
+<td>testSortByFirstAndLastNames(ua.procamp.AccountAnalyticsTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testStringToIntConverter()'><b>testStringToIntConverter</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testStringToIntConverter(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testToDollarStringFunction()'><b>testToDollarStringFunction</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testToDollarStringFunction(ua.procamp.CrazyLambdasTest)</td></tr>
+<tr>
+<td title='ua.procamp.CrazyLambdasTest.testTrickyWellDoneSupplier()'><b>testTrickyWellDoneSupplier</b><br>Test class: ua.procamp.CrazyLambdasTest</td>
+<td></td>
+<td>0</td>
+<td>testTrickyWellDoneSupplier(ua.procamp.CrazyLambdasTest)</td></tr>
+</table><p>
+</body>
+</html>
