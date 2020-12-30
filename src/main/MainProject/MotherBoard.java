@@ -1,3 +1,8 @@
+import org.apache.logging.log4j.LogManager;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class MotherBoard extends Component {
 
     private String chipSlot;
@@ -85,21 +90,22 @@ public class MotherBoard extends Component {
 
     @Override
     public void display() {
-        System.out.println("Info about motherboard");
+        Logger logger = (Logger) LogManager.getLogger("name");
+        logger.log(Level.INFO,"Info about motherboard");
         super.display();
-        System.out.println("Type of chip slot: " + this.getChipSlot());
-        System.out.println("Type of chip set: " + this.getChipSlot());
-        System.out.println("Info about motherboard`s slots");
-        System.out.println("Amount RAM slots: " + this.getSlots().getAmountRAM());
-        System.out.println("Amount PCI slots: " + this.getSlots().getAmountPCI());
-        System.out.println("Amount SATA slots: " + this.getSlots().getAmountSATA() + "\n");
+        logger.log(Level.INFO,"Type of chip slot: " + this.getChipSlot());
+        logger.log(Level.INFO,"Type of chip set: " + this.getChipSlot());
+        logger.log(Level.INFO,"Info about motherboard`s slots");
+        logger.log(Level.INFO,"Amount RAM slots: " + this.getSlots().getAmountRAM());
+        logger.log(Level.INFO,"Amount PCI slots: " + this.getSlots().getAmountPCI());
+        logger.log(Level.INFO,"Amount SATA slots: " + this.getSlots().getAmountSATA() + "\n");
 
         if(this.getRgbLight() != null){
             this.getRgbLight().display();
         }
     }
 
-    public void createLight(String modelLight, Producers producerLight, int power, String type) {
+    public void createLight(String modelLight, Producers producerLight) {
         rgbLight = new Light(modelLight, producerLight, 100, "rgb");
     }
 

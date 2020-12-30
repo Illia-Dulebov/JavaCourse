@@ -1,3 +1,8 @@
+import org.apache.logging.log4j.LogManager;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class Processor extends Component {
 
     private float clockFrequency;
@@ -17,12 +22,13 @@ public class Processor extends Component {
 
     @Override
     public void display() {
-        System.out.println("Info about processor");
+        Logger logger = (Logger) LogManager.getLogger("name");
+        logger.log(Level.INFO,"Info about processor");
         super.display();
-        System.out.println("Clock Frequency: " + this.getClockFrequency() + " GHz");
-        System.out.println("Bit Depth: " + "x" + this.getBitDepth());
-        System.out.println("Work Temperature: " + this.getWorkTemparature() + "°C");
-        System.out.println("Amount of cores: " + this.getNumCores() + "\n");
+        logger.log(Level.INFO,"Clock Frequency: " + this.getClockFrequency() + " GHz");
+        logger.log(Level.INFO,"Bit Depth: " + "x" + this.getBitDepth());
+        logger.log(Level.INFO,"Work Temperature: " + this.getWorkTemparature() + "°C");
+        logger.log(Level.INFO,"Amount of cores: " + this.getNumCores() + "\n");
     }
 
     public float getClockFrequency() {

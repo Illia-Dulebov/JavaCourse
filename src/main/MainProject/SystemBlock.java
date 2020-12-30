@@ -1,4 +1,8 @@
+import org.apache.logging.log4j.LogManager;
+
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class SystemBlock implements Compatibile {
 
@@ -23,7 +27,8 @@ public class SystemBlock implements Compatibile {
     }
 
     public void display() {
-        System.out.println("Info about system block" + "\n");
+        Logger logger = (Logger) LogManager.getLogger("name");
+        logger.log(Level.INFO,"Info about system block" + "\n");
 
         this.getMb().display();
         this.getPr().display();
@@ -38,7 +43,7 @@ public class SystemBlock implements Compatibile {
             }
         }
         else {
-            System.out.println("Quantity of RAM boards inserted are bigger than motherboard can hold!\n");
+            logger.log(Level.INFO,"Quantity of RAM boards inserted are bigger than motherboard can hold!\n");
         }
 
         this.getBd().display();

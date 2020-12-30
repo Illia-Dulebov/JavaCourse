@@ -1,4 +1,8 @@
+import org.apache.logging.log4j.LogManager;
+
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Main {
 
@@ -32,7 +36,9 @@ public class Main {
         SystemBlock dream = new SystemBlock(m1, p1, hd1, gp1, pu1, set, b1);
         dream.display();
 
-        System.out.println("Similar objects: " + hd1.equals(hd2));
-        System.out.println(Producers.ASUS.getSimilarProducers());
+        Logger logger = (Logger) LogManager.getLogger("name");
+
+        logger.log(Level.INFO,"Similar objects: " + hd1.equals(hd2));
+        logger.log(Level.INFO, Producers.ASUS.getSimilarProducers().toString());
     }
 }

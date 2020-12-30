@@ -1,3 +1,8 @@
+import org.apache.logging.log4j.LogManager;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class HardDrive extends Memory {
 
     private String typeHD;
@@ -14,11 +19,12 @@ public class HardDrive extends Memory {
 
     @Override
     public void display() {
-        System.out.println("Info about HD");
+        Logger logger = (Logger) LogManager.getLogger("name");
+        logger.log(Level.INFO,"Info about HD");
         super.display();
-        System.out.println("Type of RAM: " + this.getTypeHD());
-        System.out.println("Frequency of reading: " + this.getFrequencyRead() + " MB/s");
-        System.out.println("Frequency of recording: " + this.getFrequencyRecord() + " MB/s" + "\n");
+        logger.log(Level.INFO,"Type of RAM: " + this.getTypeHD());
+        logger.log(Level.INFO,"Frequency of reading: " + this.getFrequencyRead() + " MB/s");
+        logger.log(Level.INFO,"Frequency of recording: " + this.getFrequencyRecord() + " MB/s" + "\n");
     }
 
     public String getTypeHD() {

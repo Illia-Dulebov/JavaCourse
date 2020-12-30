@@ -1,9 +1,14 @@
+import org.apache.logging.log4j.LogManager;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 abstract class Component {
 
     private String model;
     private Producers producer;
 
-    public Component(String model, Producers producer) {
+    protected Component(String model, Producers producer) {
         this.model = model;
         this.producer = producer;
     }
@@ -25,8 +30,9 @@ abstract class Component {
     }
 
     public void display(){
-        System.out.println("Model: " + this.getModel());
-        System.out.println(this.getProducer());
+        Logger logger = (Logger) LogManager.getLogger("name");
+        logger.log(Level.INFO,"Model: " + this.getModel());
+        logger.log(Level.INFO, this.getProducer().toString());
     }
 }
 

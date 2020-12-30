@@ -1,3 +1,8 @@
+import org.apache.logging.log4j.LogManager;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class Light extends Component {
     private float power;
     private String type;
@@ -10,9 +15,10 @@ public class Light extends Component {
 
     @Override
     public void display() {
+        Logger logger = (Logger) LogManager.getLogger("name");
         super.display();
-        System.out.println("Power of light: " + this.getPower());
-        System.out.println("Type of light: " + this.getType() + "\n");
+        logger.log(Level.INFO, "Power of light: " + this.getPower());
+        logger.log(Level.INFO,"Type of light: " + this.getType() + "\n");
 
     }
 

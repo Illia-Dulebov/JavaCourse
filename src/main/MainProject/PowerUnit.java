@@ -1,3 +1,8 @@
+import org.apache.logging.log4j.LogManager;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class PowerUnit extends Component {
 
     private float power;
@@ -14,11 +19,12 @@ public class PowerUnit extends Component {
 
     @Override
     public void display() {
-        System.out.println("Info about power unit");
+        Logger logger = (Logger) LogManager.getLogger("name");
+        logger.log(Level.INFO,"Info about power unit");
         super.display();
-        System.out.println("Power: " + this.getPower() + "Wt");
-        System.out.println("Cooling: " + this.getCooling());
-        System.out.println("Plugs for all devices: " + this.getPlugs() + "\n");
+        logger.log(Level.INFO,"Power: " + this.getPower() + "Wt");
+        logger.log(Level.INFO,"Cooling: " + this.getCooling());
+        logger.log(Level.INFO,"Plugs for all devices: " + this.getPlugs() + "\n");
     }
 
     public void globalSetter(float power, String cooling, int plugs) {

@@ -1,3 +1,8 @@
+import org.apache.logging.log4j.LogManager;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class GraphicalProcessor extends Component {
 
     private float capacity;
@@ -18,12 +23,13 @@ public class GraphicalProcessor extends Component {
 
     @Override
     public void display() {
-        System.out.println("Info about graphical processor");
+        Logger logger = (Logger) LogManager.getLogger("name");
+        logger.log(Level.INFO,"Info about graphical processor");
         super.display();
-        System.out.println("Capacity of memory: " + this.getCapacity() + " GB");
-        System.out.println("Type of memory: " + this.getType());
-        System.out.println("Bus Width: " + this.getBusWidth() + " bit");
-        System.out.println("Frequency: " + this.getFrequency() + " Mhz" + "\n");
+        logger.log(Level.INFO,"Capacity of memory: " + this.getCapacity() + " GB");
+        logger.log(Level.INFO,"Type of memory: " + this.getType());
+        logger.log(Level.INFO,"Bus Width: " + this.getBusWidth() + " bit");
+        logger.log(Level.INFO,"Frequency: " + this.getFrequency() + " Mhz" + "\n");
     }
 
     public float getCapacity() {

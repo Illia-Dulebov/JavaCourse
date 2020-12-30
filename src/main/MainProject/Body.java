@@ -1,3 +1,8 @@
+import org.apache.logging.log4j.LogManager;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class Body extends Component {
 
     private float height;
@@ -16,12 +21,13 @@ public class Body extends Component {
 
     @Override
     public void display() {
-        System.out.println("Info about body");
+        Logger logger = (Logger) LogManager.getLogger("name");
+        logger.log(Level.INFO, "Info about body");
         super.display();
-        System.out.println("Height: " + this.getHeight() + " cm");
-        System.out.println("Width: " + this.getWidth() + " cm");
-        System.out.println("Length: " + this.getLength() + " cm");
-        System.out.println("Material: " + this.getMaterial() + "\n");
+        logger.log(Level.INFO,"Height: " + this.getHeight() + " cm");
+        logger.log(Level.INFO,"Width: " + this.getWidth() + " cm");
+        logger.log(Level.INFO,"Length: " + this.getLength() + " cm");
+        logger.log(Level.INFO,"Material: " + this.getMaterial() + "\n");
     }
 
     public float getHeight() {

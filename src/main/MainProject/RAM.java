@@ -1,3 +1,8 @@
+import org.apache.logging.log4j.LogManager;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class RAM extends Memory {
 
     private String typeRAM;
@@ -12,10 +17,11 @@ public class RAM extends Memory {
 
     @Override
     public void display() {
-        System.out.println("Info about RAM");
+        Logger logger = (Logger) LogManager.getLogger("name");
+        logger.log(Level.INFO,"Info about RAM");
         super.display();
-        System.out.println("Type of RAM: " + this.getTypeRAM());
-        System.out.println("Frequency: " + this.getFrequency() + " Mhz" + "\n");
+        logger.log(Level.INFO,"Type of RAM: " + this.getTypeRAM());
+        logger.log(Level.INFO,"Frequency: " + this.getFrequency() + " Mhz" + "\n");
     }
 
     public String getTypeRAM() {

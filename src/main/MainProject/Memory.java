@@ -1,3 +1,8 @@
+import org.apache.logging.log4j.LogManager;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 class Memory extends Component {
 
     private String type;
@@ -11,8 +16,9 @@ class Memory extends Component {
 
     @Override
     public void display() {
+        Logger logger = (Logger) LogManager.getLogger("name");
         super.display();
-        System.out.println("Capacity: " + this.getCapacity() + " GB");
+        logger.log(Level.INFO, "Capacity: " + this.getCapacity() + " GB");
     }
 
     public float getCapacity() {

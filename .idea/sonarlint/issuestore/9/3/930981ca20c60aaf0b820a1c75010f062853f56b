@@ -1,0 +1,15 @@
+
+S	java:S106^"9Replace this use of System.out or System.err by a logger.(Â¯±°şÿÿÿÿ
+N	java:S106Z"9Replace this use of System.out or System.err by a logger.(Ÿ“°¹
+\	java:S107/"BConstructor has 11 parameters, which is greater than 7 authorized.(ÅŞ¿şÿÿÿÿ
+N	java:S106["9Replace this use of System.out or System.err by a logger.(¼¬Ë£
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(øô¯
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(øô¯
+N	java:S106]"9Replace this use of System.out or System.err by a logger.(äİ¯¢
+<
+java:S11720"&Remove these unused method parameters.(û®Û
+0
+java:S1220""Move this file to a named package.
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(Æäåşÿÿÿÿ
+M	java:S106\"9Replace this use of System.out or System.err by a logger.(¾“H
+S	java:S106_"9Replace this use of System.out or System.err by a logger.(’¡Ôòúÿÿÿÿ
